@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "SFPD-Medium";
+    src: url('https://kenh14cdn.com/web_font/SFPD-Medium.otf');
+}
+
+@font-face {
+    font-family: "SFPD-SemiBold";
+    src: url('https://kenh14cdn.com/web_font/SFPD-SemiBold.otf');
+}
+
+@font-face {
+    font-family: "SFPD-Regular";
+    src: url('https://kenh14cdn.com/web_font/SFPD-Regular.otf');
+}
+
+@font-face {
+    font-family: "SFPD-Bold";
+    src: url('https://kenh14cdn.com/web_font/SFPD-Bold.otf');
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+*:focus {
+    outline: none;
+}
+
+
+body {
+    line-height: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.list_afnews-mid li {
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px dashed #E5E5E5;
+}
+
+    .list_afnews-mid li:nth-last-child(1) {
+        margin-bottom: 0;
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+
+.af-wrapper {
+    overflow: hidden;
+    min-width: 1120px;
+}
+
+.w1040 {
+    width: 1040px;
+    margin: 0 auto;
+}
+
+.w1160 {
+    width: 1160px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.af_home20-wrapper .af_flx.justifySB {
+    justify-content: space-between;
+}
+
+.af_flx {
+    display: flex;
+    align-items: flex-start;
+}
+
+.af_home20-wrapper .af_bigleft {
+    width: 540px;
+    max-width: 100%;
+}
+
+.af_home20-wrapper .af_bigright {
+    width: 590px;
+    max-width: 100%;
+}
+
+.af_home20-wrapper .af_midright-right, .af_home20-wrapper .af_midright-left {
+    width: 270px;
+}
